@@ -1,14 +1,21 @@
 package main
 
 import (
+	"database/sql"
 	"fmt"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/cors"
 	"github.com/joho/godotenv"
+	_ "github.com/lib/pq"
 	"log"
 	"net/http"
 	"os"
+	"scratch/internal/database"
 )
+
+type apiConfig struct {
+	DB *database.Queries
+}
 
 func main() {
 	fmt.Println("START")
@@ -22,7 +29,22 @@ func main() {
 	if portString == "" {
 		log.Fatal("PORT is not found in the environment")
 	}
+
+	dbUrl := os.Getenv("DB_URL")
+	if dbUrl == "" {
+		log.Fatal("DB_URL is not found in the environment")
+	}
 	fmt.Printf("PORT: %v", portString)
+	fmt.Printf("DB_URL: %v", dbUrl)
+
+	conn, err := sql.Open("postgres", dbUrl)
+	if err != nil {
+		log.Fatal("Can't open connection with DATABASE", err)
+	}
+
+	apiConfig := apiConfig{
+		DB: database.New(conn),
+	}
 
 	// Create a new router
 	router := chi.NewRouter()
@@ -37,7 +59,9 @@ func main() {
 	}))
 
 	v1Router := chi.NewRouter()
-	v1Router.HandleFunc("/users", handleGet)
+	v1Router.Get("/users", handleGet)
+	v1Router.Get("/err", handleError)
+	v1Router.Post("/users", apiConfig.handlerCreateUser)
 
 	router.Mount("/v1", v1Router)
 
