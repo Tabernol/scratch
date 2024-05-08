@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Latest Job Vacancies at Djinni</title>
+        <link>https://djinni.co/jobs/</link>
+        <description>Stay updated with the newest job opportunities at Djinni.</description>
+        <atom:link href="https://djinni.co/jobs/rss/" rel="self"/>
+        <language>uk</language>
+        <category>Business Analyst</category>
+        <category>ERP</category>
+        <category>Android</category>
+        <category>React.js</category>
+        <category>Svelte</category>
+        <category>Product Owner</category>
+        <category>DevOps</category>
+        <category>CMO</category>
+        <category>2D Artist</category>
+        <category>UX Research</category>
+        <category>CFO</category>
+        <category>Other</category>
+        <category>UI UX</category>
+        <category>Illustrator</category>
+        <category>Architect</category>
+        <category>Symfony</category>
+        <category>Management</category>
+        <category>QA</category>
+        <category>Embedded</category>
+        <category>3D Animation</category>
+        <category>Social Media</category>
+        <category>Motion Design</category>
+        <category>Other non-tech</category>
+        <category>CTO</category>
+        <category>Marketing Analyst</category>
+        <category>Fullstack</category>
+        <category>Marketing</category>
+        <category>.NET</category>
+        <category>Penetration Tester</category>
+        <category>Data Analytics</category>
+        <category>Game Design</category>
+        <category>Operations</category>
+        <category>Scrum Master</category>
+        <category>Data Engineer</category>
+        <category>Drupal</category>
+        <category>QA Automation</category>
+        <category>Recruiter</category>
+        <category>Media Buying</category>
+        <category>Magento</category>
+        <category>2D Animation</category>
+        <category>Game Developer</category>
+        <category>C Lang</category>
+        <category>Leadership</category>
+        <category>Graphic Design</category>
+        <category>Security</category>
+        <category>Technical Writing</category>
+        <category>Rust</category>
+        <category>Python</category>
+        <category>Ruby</category>
+        <category>Project Manager</category>
+        <category>Affiliate Manager</category>
+        <category>Other tech</category>
+        <category>JavaScript</category>
+        <category>3D Artist</category>
+        <category>iOS</category>
+        <category>Delivery Manager</category>
+        <category>Node.js</category>
+        <category>PHP</category>
+        <category>Video Editor</category>
+        <category>Security Analyst</category>
+        <category>Data Science</category>
+        <category>Lead</category>
+        <category>WordPress</category>
+        <category>Product Design</category>
+        <category>Artist</category>
+        <category>Marketing and Sales</category>
+        <category>Information Security</category>
+        <category>Data Analyst</category>
+        <category>CIO</category>
+        <category>Vue.js</category>
+        <category>Laravel</category>
+        <category>SQL</category>
+        <category>Design</category>
+        <category>Advertising</category>
+        <category>CEO</category>
+        <category>Finances</category>
+        <category>SAP</category>
+        <category>Odoo</category>
+        <category>PPC</category>
+        <category>Elixir</category>
+        <category>CSO</category>
+        <category>Sysadmin</category>
+        <category>Flutter</category>
+        <category>Unreal Developer</category>
+        <category>Golang</category>
+        <category>Kotlin</category>
+        <category>Unity Developer</category>
+        <category>Creative and Gaming</category>
+        <category>Content Marketing</category>
+        <category>Salesforce</category>
+        <category>Quality Assurance</category>
+        <category>Sales</category>
+        <category>Level Design</category>
+        <category>React Native</category>
+        <category>Interviewer</category>
+        <category>CPP</category>
+        <category>COO</category>
+        <category>Unity</category>
+        <category>Angular</category>
+        <category>MS Dynamics</category>
+        <category>VFX Artist</category>
+        <category>Lead Generation</category>
+        <category>Head Chief</category>
+        <category>Java</category>
+        <category>Content Design</category>
+        <category>C++</category>
+        <category>HR</category>
+        <category>SEO</category>
+        <category>Support</category>
+        <category>ML AI</category>
+        <category>Talent Acquisition</category>
+        <category>Scala</category>
+        <category>Development</category>
+        <category>Product Manager</category>
+        <category>CPO</category>
+        <lastBuildDate>Mon, 29 Apr 2024 15:48:05 +0300</lastBuildDate>
+        <item>
+            <title>Scala Team Lead</title>
+            <link>https://djinni.co/jobs/647009-scala-team-lead/</link>
+            <description>VeliTech is a product company where everyone is passionate about technology and strives to stay
+                ahead of the curve. Our team is fueled by a deep understanding of cutting-edge frameworks, technologies,
+                and continuous learning.
+
+                This combo brought us success: 35+ million users served with our iGaming products, breakthrough Tech
+                Radar, and a team of 200+ bright minds who made this happen.
+
+                And this team is ready to welcome you into a world of opportunities to grow and expand your expertise.
+
+                If this piques your interest, then look no further – this is the perfect opportunity for you!
+
+                We invite the Scala Team Lead to join the VeliHorizon product team.
+
+                Horizon is an API-driven, microservices-based platform that takes online casinos, sports betting, and
+                other related services to the next level.
+
+                Our cutting-edge technology integrates with leading gaming providers for a highly secure, compliant
+                gaming environment that's designed to meet all clients' needs.
+
+                Tech stack:
+                Scala 2/3, Typed Akka, ZIO, PostgreSQL, Elasticsearch, Clickhouse, K8s, Kafka, gRPC, AWS
+
+                In this role, you will:
+                - hands-on contribution and leadership of team feature development, delivery and supervising in quality
+                assurance;
+                - lead code, application and architecture design review, improvements and R&amp;D activities;
+                - lead and participate in SRE practice, housekeeping, on-call, correction-of-errors, continuous
+                improvement process and practice in a team;
+                - participate in cross-functional activities and collective leadership processes Team Lead Catch Up,
+                Scala Community and Technical Board;
+                - maintenance and effective legacy replacement of Spring-Boot / Java + Akka 2.5 / Scala 2.12 based
+                service to modern Scala 2.13, Akka 2.6 / Scala 2 and 3 + ZIO 2 stacks".
+
+                Skills and experience you will need:
+                - Solid experience with Scala/Akka(Stream, Cluster, Persistence, gRPC, Kafka) stack to develop online
+                transaction processing services;
+                - Experience with Kafka, PostgreSQL;
+                - Deep understanding of functional and object-oriented programming concepts and design patterns;
+                - Understanding of microservices-based and event-driven architecture;
+                - Ability to write clean, concise and maintainable code.
+
+                Will be a big plus:
+                - Experience with JDK upgrade and GC tuning (shenandoah, g1, zero gc, cms, parallel);
+                - Experience with K8s application troubleshooting and resource tuning;
+                - Experience with Elasticsearch, Redis, DynamoDB;
+                - Experience with Tapir, gRPC, Scala 3, ZIO, cats;
+                - Experience with Java;
+                - Experience of work in a product company with real production application;
+                - Experience of work with DevOps/SRE/XP software development practice;
+                -Experience in PostgreSQL Database query optimization.
+
+                We offer:
+                Health care
+                - Medical insurance - full coverage;
+                - Paid sick days - 10 days;
+                - Well-being program.
+
+                Well-deserved rest
+                - Paid vacation - 20 days.
+
+                Work-from-anywhere opportunities
+                - Home;
+                - Office;
+                - Mix both options the way you want.
+
+                Learning and Development
+                - Possibility to visit conferences and professional events;
+                - Internal educational programs;
+                - Certification opportunities.
+
+                Lifestyle
+                - Product mindset;
+                - Engineering culture in our DNA;
+                - T-shaped skill set model.
+            </description>
+            <pubDate>Mon, 29 Apr 2024 15:48:05 +0300</pubDate>
+            <guid>https://djinni.co/jobs/647009-scala-team-lead/</guid>
+            <category>Scala</category>
+            <category/>
+        </item>
+        <item>
+            <title>Server Engineer</title>
+            <link>https://djinni.co/jobs/646575-server-engineer/</link>
+            <description>**Job Description**
+                - Work on scalable solutions using event-driven architecture and Domain-Driven Design (DDD)
+                - Responsible for the entire lifecycle of feature development, from initial discussions with product
+                teams, defining requirements, APIs and providing estimates, to actual coding in collaboration with the
+                team, monitoring performance, and delivering robust solutions to end-users
+                - Advocate and present chosen architectures to the team, playing an active role in the evolution of our
+                tech stack
+                - Optimizing system performance, reliability, and stability, making sure our service remains seamless
+                and accessible
+                - Proactively participate in technical discussions to improve existing architecture and developer
+                experience
+                **Qualifications:**
+                - An experienced Server Engineer with a minimum of 5 years in the field, with a concentration on JVM
+                stack and/or TypeScript; functional languages experience is a plus (Scala , Kotlin, etc )
+                - Experience with SQL/NoSQL solutions and basic DB architectures, hands on with composing and profiling
+                queries
+                - Experience in designing server solutions, API design and handling technical discussions
+                - Experience in writing unit and integration tests, understanding of TDD concept
+                - Familiarity with proto-based APIs and understanding of Kafka or similar messaging systems
+                - Familiarity with cloud solutions, microservice orchestration tools and architecture experience
+                (Docker, K8s, load balancing concepts, Nginx)
+                Superb debug/re-factoring skills
+                - Passion for product development and ability to take ownership over full development lifecycle
+                - Flexibility to work occasional untraditional hours if required for on-call duty
+                **About the team**
+                We are a part of the eCommerce platform group. Our mission is to create a robust, reliable and scalable
+                platform for internal and external clients—be it individual entrepreneurs, another Wix vertical or large
+                agency, and become an open platform to run any eComm business. As part of this goal our team, along with
+                other domains, strives to provide APIs, SPIs, and tools to handle, extend and customize multiple
+                business workflows, to answer as many use-cases as possible. It is done in a generic, easy to use way,
+                and aims to meet the developers standards and industry known methods.
+            </description>
+            <pubDate>Fri, 26 Apr 2024 17:21:31 +0300</pubDate>
+            <guid>https://djinni.co/jobs/646575-server-engineer/</guid>
+            <category>Scala</category>
+            <category>Java</category>
+        </item>
+        <item>
+            <title>Senior BigData Developer</title>
+            <link>https://djinni.co/jobs/646563-senior-bigdata-developer/</link>
+            <description>**Project Description:**
+                During the 2008 financial crisis, many big banks failed or faced issues due to liquidity issues. Lack of
+                liquidity can kill any financial institution over the night. That's why it's so critical to constantly
+                monitor liquidity risks and properly maintain collaterals.
+                We are looking for a number of talented developers, who would like to join our team in Pune, which is
+                building liquidity risk and collateral management platform for one of the biggest investment banks over
+                the globe. The platform is a set of front-end tools and back-end engines. Our platform helps the bank to
+                increase efficiency and scalability, reduce operational risk and eliminate the majority of manual
+                interventions in processing margin calls.
+                Responsibilities:The candidate will work on development of new functionality for Liqudity Risk platform
+                closely with other teams over the globe.
+                **Mandatory Skills Description:**
+                - BigData experience (6 years+);
+                - Java/python J2EE, Spark, Hive;
+                - SQL Databases; UNIX Shell;
+                - Strong Experience in Apache Hadoop, Spark, Hive, Impala, Yarn, Talend, Hue;
+                - Big Data Reporting, Querying and analysis.
+
+                **Nice-to-Have Skills:**
+                - Apache Hadoop, Spark, Hive, Impala, Yarn, Talend, Hue
+                - Spark Calculators based on business logic/rules
+                - Basic performance tuning and troubleshooting knowledge
+                - Experience with all aspects of the SDLC
+                - Experience with complex deployment infrastructures
+                - Knowledge in software architecture, design and testing
+                - Data flow automation (Apache NiFi, Airflow etc)
+                - Understanding of difference between OOP and Functional design approach
+                - Understanding of an event driven architecture
+                - Spring, Maven, GIT, uDeploy;
+                **Languages:**
+                English: B2 Upper Intermediate
+            </description>
+            <pubDate>Fri, 26 Apr 2024 14:28:49 +0300</pubDate>
+            <guid>https://djinni.co/jobs/646563-senior-bigdata-developer/</guid>
+            <category>Scala</category>
+            <category/>
+        </item>
+        <item>
+            <title>Senior BigData Developer</title>
+            <link>https://djinni.co/jobs/646361-senior-bigdata-developer/</link>
+            <description>Project Description:
+                During the 2008 financial crisis, many big banks failed or faced issues due to liquidity issues. Lack of
+                liquidity can kill any financial institution over the night. That's why it's so critical to constantly
+                monitor liquidity risks and properly maintain collaterals.
+                We are looking for a number of talented developers, who would like to join our team in Pune, which is
+                building liquidity risk and collateral management platform for one of the biggest investment banks over
+                the globe. The platform is a set of front-end tools and back-end engines. Our platform helps the bank to
+                increase efficiency and scalability, reduce operational risk and eliminate the majority of manual
+                interventions in processing margin calls.
+
+                Responsibilities:
+                The candidate will work on development of new functionality for Liqudity Risk platform closely with
+                other teams over the globe.
+
+                Mandatory Skills Description:
+                - BigData experience (4 years+);
+                - Scala, Spark, Hive
+                - SQL Databases; UNIX Shell;
+                - BigData (understand MapReduce), HDFS, Yarn;
+
+                Nice-to-Have Skills:
+                - Java
+                - Apache Hadoop, Spark, Hive, Impala, Yarn, Talend, Hue
+                - Spark Calculators based on business logic/rules
+                - Basic performance tuning and troubleshooting knowledge
+                - Experience with all aspects of the SDLC
+                - Experience with complex deployment infrastructures
+                - Knowledge in software architecture, design and testing
+                - Data flow automation (Apache NiFi, Airflow etc)
+                - Understanding of difference between OOP and Functional design approach
+                - Understanding of an event driven architecture
+                - Spring, Maven, GIT, uDeploy;
+
+                Languages:
+                English: B2 Upper Intermediate
+            </description>
+            <pubDate>Thu, 25 Apr 2024 15:55:27 +0300</pubDate>
+            <guid>https://djinni.co/jobs/646361-senior-bigdata-developer/</guid>
+            <category>SQL</category>
+            <category>Scala</category>
+        </item>
+        <item>
+            <title>Senior Scala (with Spark) Developer IRC220318</title>
+            <link>https://djinni.co/jobs/645687-senior-scala-with-spark-developer-irc220318/</link>
+            <description>**Description:**
+                Our client is one of the United States’ largest high-speed Internet, video and phone providers to
+                residential customers.
+                We’re looking for a dedicated and passionate Sr. Engineer to join our cloud networking team. If you have
+                experience building scalable, cloud based, web applications, are excited about impacting millions of
+                users, look no further!
+                We are building a large scale and high performance cloud based networking service platform that will
+                deliver the next generation of Internet services across private and public networks.
+
+                **Requirements:**
+                #Required:
+
+                5+ years experience with high-scale, high performance and high-availability server development in Scala.
+                Expertise in large-scale data processing and transformation using Spark.
+                Understanding of distributed computing principles and the ability to design scalable data pipelines.
+                Experience with ETL processes and tools for data extraction, transformation, and loading.
+                Proficiency in handling real-time streaming data and processing with Spark Streaming.
+                Experience with cloud platforms (AWS is preferable) for deploying and running Spark applications.
+                Solid understanding of algorithm complexity, parallel/distributed systems, advanced data structures,
+                computer networking, and operating systems.
+                Development expertise in REST/SOAP/JSON API
+                Development expertise in message bus technologies such as RabbitMQ, ActiveMQ; Apache Kafka
+                Solid working knowledge of NoSQL – Cassandra, MongoDB
+                #Prefered:
+
+                Prior experience working with Agile/Scrum methodologies
+                Start-up environment experience
+                Bachelor’s degree in computer science or related field. Master’s preferred
+
+                **Responsibilities:**
+                As a Sr. Software Engineer, you will specialize in building high-performance, reliable back-end systems
+                and server-side APIs, creating the interconnectivity fabric of the platform and enabling the
+                provisioning of a new and revolutionary class of services to millions of Internet users.
+
+                • Design and develop REST and messaging based software infrastructure and build back-end systems and
+                APIs
+                • Design and develop low latency/high throughput server infrastructure components to handle large volume
+                of transactions
+                • Analyze requirements, design and develop code, unit test code and test tools
+                • Present and defend architectural, design, and technical choices to internal and external audiences.
+                • Comfortable with collaboration, open communication and reaching across dev, qa, ops and other cross
+                functional teams
+            </description>
+            <pubDate>Tue, 23 Apr 2024 14:23:47 +0300</pubDate>
+            <guid>https://djinni.co/jobs/645687-senior-scala-with-spark-developer-irc220318/</guid>
+            <category>Scala</category>
+            <category/>
+        </item>
+        <item>
+            <title>Scala Team Lead</title>
+            <link>https://djinni.co/jobs/645600-scala-team-lead/</link>
+            <description>VeliTech is a product company, where everyone is passionate about technology and strives to
+                stay ahead of the curve. Our team is fueled by a deep understanding of cutting-edge frameworks,
+                technologies, and continuous learning.
+
+                This combo brought us success, 35+ million users served with our iGaming products, breakthrough Tech
+                Radar, and a team of 200+ bright minds who made this happen.
+
+                And this team is ready to welcome you in a world of opportunities to grow and expand your expertise.
+
+                If this piques your interest, then look no further – this is the perfect opportunity for you!
+
+                **We invite Scala Team Lead to join VeliHorizon product team.**
+
+                Horizon is the API-driven, microservices-based platform that takes online casinos, sports betting, and
+                beyond to the next level.
+
+                Our cutting-edge technology integrates with leading gaming providers for a highly-secured, compliant
+                gaming environment that's designed to meet all clients' needs.
+
+                **Tech stack:**
+                Scala 2/3, Typed Akka, ZIO, PostgreSQL, Elasticsearch, Clickhouse, K8s, Kafka, gRPC, AWS
+
+                **In this role, you will:**
+                -hands-on contribution and leadership of team feature development, delivery and supervising in quality
+                assurance;
+                -lead code, application and architecture design review, improvements and R&amp;D activities;
+                -lead and participate in SRE practice, housekeeping, on-call, correction-of-errors, continuous
+                improvement process and practice in a team;
+                -participate in cross-functional activities and collective leadership processes Team Lead Catch Up,
+                Scala Community and Technical Board;
+                -maintenance and effective legacy replacement of Spring-Boot / Java + Akka 2.5 / Scala 2.12 based
+                service to modern Scala 2.13, Akka 2.6 / Scala 2 and 3 + ZIO 2 stacks".
+
+                **Skills and experience you will need:**
+                -Solid experience with Scala/Akka(Stream, Cluster, Persistence, gRPC, Kafka) stack to develop online
+                transaction processing services;
+                -Experience with Kafka, PostgreSQL;
+                -Deep understanding of functional and object-oriented programming concepts and design patterns;
+                -Understanding of microservices-based and event-driven architecture;
+                -Ability to write clean, concise and maintainable code.
+
+                **Will be a big plus:**
+                -Experience with JDK upgrade and GC tuning(shenandoah, g1, zero gc, cms, parallel);
+                -Experience with K8s application troubleshooting and resource tuning;
+                -Experience with Elasticsearch, Redis, DynamoDB;
+                -Experience with Tapir, gRPC, Scala 3, ZIO, cats;
+                -Experience with Java;
+                -Experience of work in a product company with real production application;
+                -Experience of work with DevOps/SRE/XP software development practise;
+                -Experience of PostgreSQL Database query optimization.
+
+                **We offer:**
+                **Health care**
+                -Medical insurance - full coverage;
+                -Paid sick days - 10 days;
+                -Well-being program.
+
+                **Well-deserved rest**
+                -Paid vacation - 20 days.
+
+                **Work-from-anywhere opportunities**
+                -Home;
+                -Office;
+                -Mix both options the way you want.
+
+                **Learning and Development**
+                -Budget for self-education (hard and soft skills);
+                -Possibility to visit conferences and professional events;
+                -English language courses + speaking club;
+                -Internal educational programs;
+                -Certification opportunities.
+
+                **Lifestyle**
+                -Product mindset;
+                -Engineering culture in our DNA;
+                -T-shaped skill set model.
+            </description>
+            <pubDate>Tue, 23 Apr 2024 11:48:21 +0300</pubDate>
+            <guid>https://djinni.co/jobs/645600-scala-team-lead/</guid>
+            <category>Scala</category>
+            <category/>
+        </item>
+        <item>
+            <title>Senior Scala/Spark Software Engineer (Data Science team) IRC216702</title>
+            <link>https://djinni.co/jobs/637265-senior-scala-spark-software-engineer-data-sci/</link>
+            <description>Description:
+                Founded in 2007, Rubicon Project’s pioneering technology created a new model for the advertising
+                industry. Today, our automated advertising platform is used by the world’s leading publishers and
+                applications to transact with top brands around the globe enabling them to reach more than 1 billion
+                consumers. Rubicon Project operates the largest independent Display Advertising Exchange and Supply Side
+                Platform that automates the buying and selling of Display Advertising across all formats (banner, video)
+                on all devices (desktop browsers, mobile devices, billboards). Rubicon Project auctions over 20 Billion
+                Ads on a daily basis in real-time in less than 1/2 of a second each. Rubicon Project is a publicly
+                traded company (NYSE: RUBI) headquartered in Los Angeles, California, USA.
+
+                Requirements:
+                4+ years of production coding experience on the server side;
+                Expertise in Scala, Spark;
+                Demonstrated strong English language verbal and written communication skills (at least intermediate
+                level by client request);
+                Expertise in Service-oriented architectures, microservices, advanced database schemas, relational and
+                nonrelational databases, and highly scalable and available web services;
+                Readiness to work on different types of projects from POC &amp; MVP with based on very high-level
+                requirements to production-ready. Work will include very close collaboration with the Data Science team;
+                Familiarity with HTTP protocol, networking, CDN, and Web performance factors;
+                A strong understanding of algorithms, and data structures, and an ability to recognize the business and
+                technical trade-offs between different solutions;
+                Experience with development and CI tools: maven, git, Jenkins, Puppet, Crucible, Jira;
+                Experience working in a Linux environment;
+                Expertise in building software in an agile development environment.
+
+                Responsibilities:
+                Be a creative problem-solver who can draw on an array of expertise and technology to design and
+                implement reliable, scalable and maintainable solutions to challenging problems;
+                Write production-ready code and unit tests that meet both system and business requirements;
+                Design software and prepare technical specifications;
+                Respond to feature requests, bug reports, performance issues and ad-hoc questions;
+                Work collaboratively with multiple teams to deliver quality software;
+                Perform code reviews and design reviews.
+            </description>
+            <pubDate>Mon, 22 Apr 2024 16:42:25 +0300</pubDate>
+            <guid>https://djinni.co/jobs/637265-senior-scala-spark-software-engineer-data-sci/</guid>
+            <category>Scala</category>
+            <category/>
+        </item>
+        <item>
+            <title>Senior Big Data Developer</title>
+            <link>https://djinni.co/jobs/617654-senior-big-data-developer/</link>
+            <description>**This is an opportunity to work with the world’s most valuable company, whose mission is to
+                bring the best user experience to its customers through its innovative hardware, software, and
+                services.**
+
+                **Requirements:**
+
+                - Proven experience in crafting, implementing and supporting highly scalable data systems and services
+                in Scala and Java
+                - Solid experience with Apache Spark and Streaming
+                - Proven skills in designing scalable, highly available distributed systems using Kubernetes
+                - Data processing experience at scale
+                - Streaming experience at scale
+                - Strong communication skills and ability to work closely with and collaboratively with others
+                - Able to capture cross-functional requirements and translate them into practical engineering tasks
+                - You will need to have a real passion for quality and an ability to understand complex systems
+
+                **Responsibilities:**
+                - This is your opportunity to help engineer highly visible global-scale systems with petabytes of data,
+                supporting hundreds of millions of users
+                - This role includes elements both of ad hoc analysis as well as roll up of production grade data feeds
+                - This role also includes an essential thread of data privacy and security
+                - This is a rare opportunity to join a focused team and work collaboratively with other groups to make a
+                significant impact
+            </description>
+            <pubDate>Mon, 22 Apr 2024 14:54:01 +0300</pubDate>
+            <guid>https://djinni.co/jobs/617654-senior-big-data-developer/</guid>
+            <category>Scala</category>
+            <category/>
+        </item>
+        <item>
+            <title>Senior Java with Big data</title>
+            <link>https://djinni.co/jobs/639597-senior-java-with-big-data/</link>
+            <description>**Project Description:**
+
+                Embark on a transformative journey with our revolutionary cross-asset data management platform, designed
+                to redefine the landscape of global finance. Our next-generation platform stands at the forefront of
+                innovation, meticulously crafted to deliver globally consistent data and pioneering tools. Aimed at
+                empowering trade and sales clients, this platform is the cornerstone for executing business strategies
+                with precision and agility.
+
+                Built upon a robust big data architecture, our platform is not only highly scalable but also primed for
+                the cloud era. It serves as the bedrock for industry-leading analytics, offering unparalleled client
+                reporting, regulatory compliance, and a suite of solutions for surveillance, supervisory reporting, and
+                data science, affectionately known as "data flame." Our project leverages a sophisticated tech stack
+                comprising Java, Scala, Spring, SQL, Kafka, and Hadoop, setting a new standard for excellence.
+
+                **Opportunity:**
+
+                We are in search of an exceptional Senior Java Developer, someone who embodies leadership, innovation,
+                and technical prowess. The ideal candidate is not just a developer but a visionary, capable of working
+                synergistically within a team, mentoring peers, engaging stakeholders, and taking full accountability
+                for the team's outputs and the success of assigned activities.
+
+                As the Tech Lead, you will be at the helm of a dynamic development team, comprising 2 Senior and 2
+                Regular Java Developers. This role is a rare opportunity to delve deep into the realm of big data within
+                the prestigious environment of an international bank, enhancing your expertise and shaping the future of
+                financial data management.
+
+                **Responsibilities:**
+
+                - Analyze and transition from existing systems to our cutting-edge solution.
+                - Architect and design the blueprint of the new platform.
+                - Develop components to support existing functionalities and new business demands.
+                - Optimize for scalability and performance.
+                - Integrate with a variety of external data sources including Storm, JDBC, KDB+, websockets, REST
+                services, and flat files.
+                - Lead and manage a high-caliber team to success.
+
+                **Mandatory Skills:**
+
+                - At least 1 year of Big Data development experience, with hands-on expertise in Spark programming.
+                - Comprehensive development skills, including:
+                - API design and construction in Java;
+                - Java server-side or back-end development;
+                - Mastery of Core Java, Java collections, and multithreading;
+                - Java Memory Management;
+                - Advanced SQL knowledge.
+                - A deep understanding of distributed systems and CI/CD workflows.
+                - Proficiency in Linux.
+                - Exceptional problem-solving capabilities.
+                - A proactive, enthusiastic attitude with a keenness to learn and adapt.
+
+                **Nice-to-Have Skills:**
+
+                - Proficiency in Apache Spark and in-memory databases.
+                - Experience with the Hadoop ecosystem.
+                - Financial sector experience.
+                - Over 1 year of Machine Learning experience, in Java or Python.
+
+                **Language Requirements:**
+
+                - English: B2 Upper Intermediate
+
+                Join us in this ambitious project to forge the future of financial data management, leveraging
+                cutting-edge technology to drive innovation and excellence. Your journey with us will be one of
+                challenge, growth, and unparalleled opportunity.
+            </description>
+            <pubDate>Fri, 12 Apr 2024 16:33:27 +0300</pubDate>
+            <guid>https://djinni.co/jobs/639597-senior-java-with-big-data/</guid>
+            <category>Java</category>
+            <category>Scala</category>
+        </item>
+    </channel>
+</rss>

@@ -20,6 +20,12 @@ type apiConfig struct {
 func main() {
 	fmt.Println("START")
 
+	feed, err := urlToFeed("https://djinni.co/jobs/?primary_keyword=Scala&exp_level=5y")
+	if err != nil {
+		log.Println("Error caused feeding data", err)
+	}
+	fmt.Println(feed)
+
 	loadErr := godotenv.Load()
 	if loadErr != nil {
 		log.Fatal("Error loading .env file")
