@@ -6,13 +6,37 @@ package database
 
 import (
 	"time"
-
-	"github.com/google/uuid"
 )
 
+type Feed struct {
+	ID        int64
+	CreatedAt time.Time
+	UpdatedAt time.Time
+	Title     string
+	Link      string
+}
+
+type FeedsFollower struct {
+	ID        int64
+	CreatedAt time.Time
+	UpdatedAt time.Time
+	FeedID    int64
+	UserID    int64
+}
+
 type User struct {
-	ID        uuid.UUID
+	ID        int64
 	CreatedAt time.Time
 	UpdatedAt time.Time
 	Name      string
+}
+
+type Vacancy struct {
+	ID          int64
+	CreatedAt   time.Time
+	UpdatedAt   time.Time
+	Title       string
+	Description string
+	Link        string
+	Category    string
 }

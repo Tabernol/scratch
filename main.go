@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/joho/godotenv"
+	"github.com/go-chi/chi"
+	"github.com/go-chi/cors"
 	_ "github.com/lib/pq"
 	"log"
-	"os"
+	"net/http"
+	"scratch/config"
 	"scratch/internal/database"
 )
 
@@ -15,65 +17,52 @@ type apiConfig struct {
 
 func main() {
 	fmt.Println("START")
-
-	feed, err := urlToFeed("https://djinni.co/jobs/rss/?primary_keyword=Java&exp_level=1y")
+	// Load configuration
+	cfg, err := config.Load()
 	if err != nil {
-		log.Println("Error caused feeding data", err)
-	}
-	fmt.Println(feed)
-
-	loadErr := godotenv.Load()
-	if loadErr != nil {
-		log.Fatal("Error loading .env file")
+		log.Fatalf("Error loading configuration: %v", err)
 	}
 
-	portString := os.Getenv("PORT")
-	if portString == "" {
-		log.Fatal("PORT is not found in the environment")
+	fmt.Printf("PORT: %v", cfg.Port)
+	fmt.Printf("DB_URL: %v", cfg.DatabaseURL)
+
+	// Setup database connection
+	db, err := database.NewDB(cfg)
+	if err != nil {
+		log.Fatalf("Error setting up database connection: %v", err)
+	}
+	defer db.Close()
+
+	apiConfig := apiConfig{
+		DB: database.New(db),
 	}
 
-	dbUrl := os.Getenv("DB_URL")
-	if dbUrl == "" {
-		log.Fatal("DB_URL is not found in the environment")
+	// Create a new router
+	router := chi.NewRouter()
+
+	router.Use(cors.Handler(cors.Options{
+		AllowedOrigins:   []string{"https://*", "http://*"},
+		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+		AllowedHeaders:   []string{"*"},
+		ExposedHeaders:   []string{"Link"},
+		AllowCredentials: false,
+		MaxAge:           300,
+	}))
+
+	v1Router := chi.NewRouter()
+	v1Router.Get("/users", handleGet)
+	v1Router.Get("/err", handleError)
+	v1Router.Post("/users", apiConfig.handlerCreateUser)
+
+	router.Mount("/v1", v1Router)
+
+	srv := &http.Server{
+		Handler: router,
+		Addr:    ":" + cfg.Port,
 	}
-	fmt.Printf("PORT: %v", portString)
-	fmt.Printf("DB_URL: %v", dbUrl)
-
-	//conn, err := sql.Open("postgres", dbUrl)
-	//if err != nil {
-	//	log.Fatal("Can't open connection with DATABASE", err)
-	//}
-
-	//apiConfig := apiConfig{
-	//	DB: database.New(conn),
-	//}
-
-	//// Create a new router
-	//router := chi.NewRouter()
-	//
-	//router.Use(cors.Handler(cors.Options{
-	//	AllowedOrigins:   []string{"https://*", "http://*"},
-	//	AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
-	//	AllowedHeaders:   []string{"*"},
-	//	ExposedHeaders:   []string{"Link"},
-	//	AllowCredentials: false,
-	//	MaxAge:           300,
-	//}))
-	//
-	//v1Router := chi.NewRouter()
-	//v1Router.Get("/users", handleGet)
-	//v1Router.Get("/err", handleError)
-	//v1Router.Post("/users", apiConfig.handlerCreateUser)
-	//
-	//router.Mount("/v1", v1Router)
-	//
-	//srv := &http.Server{
-	//	Handler: router,
-	//	Addr:    ":" + portString,
-	//}
-	//fmt.Println("Server is starting ...")
-	//servErr := srv.ListenAndServe()
-	//if servErr != nil {
-	//	log.Fatal("Server problem")
-	//}
+	fmt.Println("Server is starting ...")
+	servErr := srv.ListenAndServe()
+	if servErr != nil {
+		log.Fatal("Server problem")
+	}
 }
