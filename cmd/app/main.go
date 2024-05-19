@@ -26,20 +26,27 @@ func main() {
 		log.Fatalf("Error during conecting to database: %v", err)
 	}
 	defer db.Close()
-	// Initialize ApiConfig
-	apiCfg, err := router.NewApiConfig(db)
-	if err != nil {
-		log.Fatalf("Error initializing API config: %v", err)
-	}
 
-	fmt.Println("Connected to DB")
+	r := router.SetupRouter(db)
 
-	// Set up HTTP routes
-	r := router.SetupRouter(apiCfg)
-
-	// Start the server
 	log.Printf("Server is running on port %s", cfg.Port)
 	if err := http.ListenAndServe(":"+cfg.Port, r); err != nil {
 		log.Fatalf("Failed to start server: %v", err)
 	}
+	// Initialize ApiConfig
+	//apiCfg, err := router.SetupRouter(userHandler)
+	//if err != nil {
+	//	log.Fatalf("Error initializing API config: %v", err)
+	//}
+	//
+	//fmt.Println("Connected to DB")
+	//
+	//// Set up HTTP routes
+	//r := router.SetupRouter(apiCfg)
+	//
+	//// Start the server
+	//log.Printf("Server is running on port %s", cfg.Port)
+	//if err := http.ListenAndServe(":"+cfg.Port, r); err != nil {
+	//	log.Fatalf("Failed to start server: %v", err)
+	//}
 }
