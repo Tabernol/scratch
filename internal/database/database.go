@@ -2,6 +2,7 @@ package database
 
 import (
 	"database/sql"
+	"fmt"
 	"scratch/config"
 )
 
@@ -9,7 +10,12 @@ import (
 func NewDB(cfg *config.Config) (*sql.DB, error) {
 	db, err := sql.Open("postgres", cfg.DatabaseURL)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("error connecting to the database: %w", err)
+	}
+
+	// Test the database connection
+	if err := db.Ping(); err != nil {
+		return nil, fmt.Errorf("error pinging the database: %w", err)
 	}
 	return db, nil
 }

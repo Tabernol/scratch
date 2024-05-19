@@ -4,13 +4,7 @@ import (
 	"fmt"
 	"github.com/joho/godotenv"
 	"os"
-	"scratch/internal/database"
 )
-
-// APIConfig holds API-related configuration.
-type APIConfig struct {
-	DB *database.Queries
-}
 
 // Config represents the application configuration.
 type Config struct {
